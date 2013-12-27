@@ -2,7 +2,7 @@
 	"name": "atomita/cakephp1-setup-plugin",
 	"description": "",
 	"type": "composer-plugin",
-	"keywords": ["plugins", "cakephp", "1.3.*"],
+	"keywords": ["plugins", "cakephp", "1.3"],
 	"license": "MIT",
 	"authors": [
 		{
