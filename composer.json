@@ -1,0 +1,25 @@
+{
+	"name": "atomita/cakephp1-setup-plugin",
+	"description": "",
+	"type": "composer-plugin",
+	"keywords": ["plugins", "cakephp", "1.3.*"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "atomita"
+		}
+	],
+	"version": "0.0.1",
+	"require": {
+		"composer-plugin-api": "*"
+	},
+	"require-dev": {
+		"composer/composer": "1.*"
+	},
+	"autoload": {
+		"psr-0": {"Atomita": ["src/"]}
+	},
+	"extra": {
+		"class": "\\Atomita\\Composer\\Plugin\\Cakephp1Setup"
+	}
+}
