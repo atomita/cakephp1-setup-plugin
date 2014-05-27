@@ -10,12 +10,6 @@
 		}
 	],
 	"version": "0.0.1",
-	"require": {
-	},
-	"require-dev": {
-		"composer/composer": "1.*",
-		"composer-plugin-api": "*"
-	},
 	"autoload": {
 		"psr-0": {"Atomita": ["src/"]}
 	},
